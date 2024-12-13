@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Transformation</title>
+    <style>
+    	body {
+    		 background-image: linear-gradient(to right top, #1b5cec, #6961ee, #9368ef, #b46ff0, #d178f0);
+
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    height: 100vh;
+		    margin: 0;
+		    /*background-color: #f0f0f0;*/
+		}
+
+.decorative-image {
+    width: 500px; /* Adjust the width as needed */
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    transform: rotateY(25deg);
+    transition: transform 0.5s, filter 0.5s;
+}
+
+.decorative-image:hover {
+    transform: rotateY(25deg);
+    filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.7));
+}
+
+    </style>>
+</head>
+<body>
+    <img src="C:\Users\Adil\Downloads\Lappy-bg.png" alt="Decorative Image" class="decorative-image">
+</body>
+</html>

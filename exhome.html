@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Hstyles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blur"></div>
+    <div class="header-container">
+        <div class="header-buttons">
+            <button class="header-button" data-hover="About"><span class="material-icons">alternate_email</span></button>
+            <button class="header-button" data-hover="Settings"><span class="material-icons">settings</span></button>
+            <button class="header-button" data-hover="User"><span class="material-icons">person</span></button>
+        </div>
+    </div>
+    <div class="left-chat-container">
+        <div class="chat-header">
+            <span class="chat-title">MYRA</span>
+            <span class="new-chat-icon" id="newChatIcon">+</span>
+        </div>
+        <div class="chat-sessions" id="chatSessions">
+            <!-- Chat sessions will go here -->
+        </div>
+    </div>
+    <div class="dashboard-container">
+        <div class="main-container" id="mainContainer">
+            <div class="chat-content" id="chatContent">
+                <div class="timeline">Today</div>
+                <!-- Chat messages will go here -->
+            </div>
+            <div class="chat-input-container">
+                <img src="C:\Users\Adil\Desktop\Performance\logo.png" alt="Logo" id="logo" class="chat-logo">
+                <input type="text" id="userInput" placeholder="Type your message..." class="chat-input">
+                <button id="sendButton" class="chat-send-button">Enter</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
